@@ -1,0 +1,6 @@
+<div class="input-container">
+  <h2>String Calculator</h2>
+  <input [(ngModel)]="inputString" placeholder="Enter numbers..." />
+  <button (click)="onCalculate()">Calculate</button>
+</div>
+<app-calculator-output [result]="result"></app-calculator-output>
